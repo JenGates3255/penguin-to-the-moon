@@ -1,0 +1,37 @@
+html, body {
+	height: 100%;
+}
+
+.sky {
+	height: 75%;
+	position: relative;
+	text-align: center;
+	background: linear-gradient(lightblue,white);
+}
+
+.earth {
+	height: 25%;
+	background-color:lightgreen;
+}
+
+.penguin{
+	font-size: 40px;
+	position: absolute;
+	color: gray;
+	bottom: 0;
+}
+#moon{
+	position: absolute;
+	font-size: 40px;
+	color: yellow;
+}
+
+.bird{
+	position: absolute;
+	font-size: 40px;
+}
+.flock{
+	position: absolute;
+	height:50px; 
+	display: inline-block;;
+}
